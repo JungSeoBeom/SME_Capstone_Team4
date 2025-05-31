@@ -415,13 +415,12 @@ def main():
             animate_parking(frames, animation_path, args.fps, args.dpi)
             print(f"[INFO] 애니메이션이 저장되었습니다: {animation_path}")
         else:
-            print("[ERROR] 애니메이션 프레임을 생성할 수 없습니다.")
+            print("[ERROR]  애니메이션 프레임을 생성할 수 없습니다.")
             return 1
     
     print("\n[INFO] 시뮬레이션이 완료되었습니다.")
     print(f"[INFO] 모든 결과가 {output_dir} 디렉토리에 저장되었습니다.")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main()) 
